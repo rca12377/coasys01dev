@@ -23,25 +23,25 @@ export default function Home() {
        
       <Image
         src="/coasysLogo_white.svg"
-        width={150}
+        height={46}
         alt="Coasys Logo Image"
         />
 
       <Image
         src="/ad4mLogo_white.svg"
-        width={150}
+        height={46}
         alt="Coasys Logo Image"
         />
 
       <Image
         src="/fluxLogo_white.svg"
-        width={150}
+        height={46}
         alt="Coasys Logo Image"
         />
 
       <Image
         src="/synergyLogo_white.svg"
-        width={150}
+        height={46}
         alt="Coasys Logo Image"
         />
       </div>
