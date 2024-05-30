@@ -7,7 +7,7 @@ export default function AD4M() {
 
         <main id="mainDiv" >
             <h2>AD4M .. information</h2>
-            <br/>
+            <br/> 
             <Image
               src="/ad4mLogo_white.svg"
               height={100}
