@@ -23,6 +23,7 @@
 #NavigationMenu {
   border: 2px solid yellow;
   background-color: #666666;
+  white-space: nowrap;
 }
 
 #mainDiv {
