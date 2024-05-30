@@ -26,6 +26,9 @@ export default function RootLayout({
 
         <nav id="NavigationMenu">
           <a href="/Products"><Image src="/navProducts.png" alt="Products" /></a>
+          <a href="/Resources"><Image src="/navResources.png" alt="Resources" /></a>
+          <a href="/Development"><Image src="/navDevelopment.png" alt="Development" /></a>
+          <a href="/Community"><Image src="/navCommunity.png" alt="Community" /></a>
         </nav>
         
         {children}
