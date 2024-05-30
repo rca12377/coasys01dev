@@ -22,7 +22,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url(${bg.src});
+  background-image: url(${bg.src}) !important;
   /*
   background: linear-gradient(
       to bottom,
