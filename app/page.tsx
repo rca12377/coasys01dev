@@ -28,12 +28,6 @@ export default function Home() {
         alt="Coasys Logo Image"
         />
 
-      <Image
-        src="/ad4mLogo_white.svg"
-        height={46}
-        width={150}
-        alt="AD4M Logo Image"
-        />
 
       <Image
         src="/fluxLogo_white.svg"
@@ -61,14 +55,15 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-3 text-2xl font-semibold">
-            AD4M{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
+          <Image
+              src="/ad4mLogo_white.svg"
+              height={46}
+              width={150}
+              alt="AD4M Logo Image"
+              />
+          
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
+            AD4m blah blah blah ...
           </p>
         </a>
 
