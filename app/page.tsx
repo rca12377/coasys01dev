@@ -2,7 +2,7 @@
 
 
 import Image from "next/image";
-import bg from '/bground01.png';
+
 
 export const dynamic = 'force-dynamic';
 
