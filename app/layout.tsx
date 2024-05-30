@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import Link from "next/link";
+import Image from "next/image";
+export const dynamic = 'force-dynamic';
+
 import "./globals.css";
 
 
@@ -8,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "COASYS",
-  description: "COASYS WEBSITE",
+  description: "COASYS: A Digital Nervous System for the New Web",
 };
 
 export default function RootLayout({
@@ -18,7 +22,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+
+        <nav>
+          <h1>Navigation</h1>
+          <Link href="/">Home</Link>
+          <Link href="/AD4M">AD4M</Link>
+        </nav>
+        
+        {children}
+      </body>
     </html>
   );
 }
