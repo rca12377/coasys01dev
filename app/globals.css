@@ -19,12 +19,13 @@
 
 #mainDiv {
   border: 2px solid red;
+  background-image: url("/bground01.png") !important;
 }
 
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url("/bground01.png") !important;
+  
   /*
   background: linear-gradient(
       to bottom,
