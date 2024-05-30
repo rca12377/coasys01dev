@@ -24,7 +24,9 @@
   border: 2px solid yellow;
   background-color: #666666;
   white-space: nowrap;
-  width: 1161px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  width: 1161;
 }
 
 #mainDiv {
