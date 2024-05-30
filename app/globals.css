@@ -17,10 +17,11 @@
   }
 }
 
+import bg from '/bground01.png';
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: "/bground01.png";
+  background-image: url(${bg.src});
   /*
   background: linear-gradient(
       to bottom,
