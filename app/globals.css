@@ -17,7 +17,7 @@
   }
 }
 
-import bg from '/bground01.png';
+
 
 body {
   color: rgb(var(--foreground-rgb));
