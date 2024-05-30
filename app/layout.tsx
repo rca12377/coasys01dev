@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import bg from '/bground01.png';
-
 import "./globals.css";
 
 
