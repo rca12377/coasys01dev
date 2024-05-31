@@ -19,7 +19,7 @@
   }
 }
 #PrimaryContainer {
-  border: 2px solid cyan;
+  /* border: 2px solid cyan; */
   background-image: url("/bground01.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 #NavigationMenu {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   white-space: nowrap;
   text-wrap: nowrap;
   overflow: hidden;
@@ -37,11 +37,11 @@
 }
 
 #PageContent {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 #mainDiv {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
