@@ -36,11 +36,12 @@ export default function RootLayout({
             <a href="/AD4M"><img src="/navLogin.svg" alt="Login" /></a>
           </div>
 
-          <!-- BEGIN: PAGE CONTENT -->
-          {children}
-          <!-- END: PAGE CONTENT -->
+          <div id="PageContent">
+            {children}
+          </div>
             
         </div>
+        
       </body>
     </html>
   );
