@@ -33,6 +33,10 @@
   width: 100%;
 }
 
+#PageContent {
+  border: 2px solid green;
+}
+
 #mainDiv {
   border: 2px solid red;
   background-color: #000000;
