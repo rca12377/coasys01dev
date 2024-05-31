@@ -28,6 +28,7 @@
 
 #NavigationMenu {
   /* border: 2px solid yellow; */
+  padding-top: 8px;
   white-space: nowrap;
   text-wrap: nowrap;
   overflow: hidden;
