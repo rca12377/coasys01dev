@@ -8,11 +8,15 @@ export default function Home() {
     <main id="mainDiv" className="flex min-h-screen flex-col items-center justify-between p-24">
 
       <div className="relative z-50 flex place-items-center before:absolute before:h-[200px] before:w-full before:-translate-x-1/2 before:rounded-full after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-       
+
+<image src="/Coasys-vertical.svg" alt="" />
+        
       <Image
         src="/HomePage.svg"
         alt=""
         />
+
+        
       </div>
 
       <br/><br/><br/>
