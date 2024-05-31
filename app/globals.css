@@ -19,6 +19,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+#PrimaryContainer {
+  border: 2px solid cyan;
+}
 
 #NavigationMenu {
   border: 2px solid yellow;
