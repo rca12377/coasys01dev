@@ -33,6 +33,7 @@ export default function RootLayout({
             <a href="/Community"><img height="40" src="/navCommunity.png" alt="Community" /></a>
             &nbsp;&nbsp;
             <a href="/"><img src="/hamburger.svg" alt="" /></a>
+            &nbsp;&nbsp;
             <a href="/AD4M"><img src="/navLogin.svg" alt="Login" /></a>
           </div>
 
