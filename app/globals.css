@@ -20,11 +20,13 @@
 }
 #PrimaryContainer {
   border: 2px solid cyan;
+  background-image: url("/bground01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #NavigationMenu {
   border: 2px solid yellow;
-  background-color: #666666;
   white-space: nowrap;
   text-wrap: nowrap;
   overflow: hidden;
@@ -39,8 +41,6 @@
 
 #mainDiv {
   border: 2px solid red;
-  background-color: #000000;
-  /* background-image: url("/bground01.png") !important; */
 }
 
 
