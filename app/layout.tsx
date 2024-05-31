@@ -25,10 +25,10 @@ export default function RootLayout({
       <body className={inter.className}>
 
         <div id="NavigationMenu">
-          <a href="/Products"><Image src="/navProducts.png" alt="Products" /></a>
-          <a href="/Resources"><Image src="/navResources.png" alt="Resources" /></a>
-          <a href="/Development"><Image src="/navDevelopment.png" alt="Development" /></a>
-          <a href="/Community"><Image src="/navCommunity.png" alt="Community" /></a>
+          <a href="/Products"><img src="/navProducts.png" alt="Products" /></a>
+          <a href="/Resources"><img src="/navResources.png" alt="Resources" /></a>
+          <a href="/Development"><img src="/navDevelopment.png" alt="Development" /></a>
+          <a href="/Community"><img src="/navCommunity.png" alt="Community" /></a>
         </div>
         
         {children}
