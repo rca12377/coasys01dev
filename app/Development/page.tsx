@@ -6,15 +6,13 @@ export default function Development() {
     return (
 
         <main id="mainDiv" >
-            <h2>Development .. information</h2>
+            
+            <h1>Development .. </h1>
             <br/>
-            <Image
-              src="/ad4mLogo_white.svg"
-              height={100}
-              width={300}
-              alt="AD4M Logo Image"
-              />
+
         </main>
+
+        
     );
   }
   
