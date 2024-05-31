@@ -29,6 +29,7 @@ export default function RootLayout({
           <a href="/Resources"><img src="/navResources.png" alt="Resources" /></a>
           <a href="/Development"><img src="/navDevelopment.png" alt="Development" /></a>
           <a href="/Community"><img src="/navCommunity.png" alt="Community" /></a>
+          &nbsp;&nbsp;
           <a href="/"><img src="/hamburger.svg" alt="" /></a>
           <a href="/AD4M"><img src="/navLogin.png" alt="Login" /></a>
         </div>
