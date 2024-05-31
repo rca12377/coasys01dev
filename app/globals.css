@@ -23,6 +23,12 @@
 #NavigationMenu {
   border: 2px solid yellow;
   background-color: #666666;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 1161px;
 }
 
 #mainDiv {

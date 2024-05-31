@@ -24,9 +24,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
 
-        <nav id="NavigationMenu">
-          <Image src="/navProducts.png" alt="Products" />
-        </nav>
+        <div id="NavigationMenu">
+          <a href="/Products"><img src="/navProducts.png" alt="Products" /></a>
+          <a href="/Resources"><img src="/navResources.png" alt="Resources" /></a>
+          <a href="/Development"><img src="/navDevelopment.png" alt="Development" /></a>
+          <a href="/Community"><img src="/navCommunity.png" alt="Community" /></a>
+        </div>
         
         {children}
       </body>
