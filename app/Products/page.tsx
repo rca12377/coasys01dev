@@ -13,6 +13,14 @@ export default function Products() {
         <div className="flex-1 bg-green-500 rounded-lg">3</div> 
     </div>
 
+            <div className="flex bg-ltblue p-4 mx-16">
+
+                    <div className="flex-1 rounded-lg">
+                        <Image src="/contentHome01.svg" alt="" />
+                    </div>
+            
+            </div>
+
             
             <h1>Products .. </h1>
             <br/>
