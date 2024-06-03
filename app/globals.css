@@ -21,10 +21,10 @@
 #PrimaryContainer {
   /* border: 2px solid cyan; */
   background-image: url("/bg01Dark.png");
-  background-size: contain;
+  /* background-size: contain; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
+  width: 100%;
 }
 
 #NavigationMenu {
