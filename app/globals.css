@@ -4,9 +4,6 @@
 
 
 :root {
-  --Primary-font-family: "Bricolage Grotesque", sans-serif;
-  --Secondary-font-family: "Noto Serif", serif;  
-  
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 72, 35, 112;
   --background-end-rgb: 55, 7, 112;
@@ -22,11 +19,11 @@
 
 body,div,span,p,h1,h2,h3,font {
   color: #FFFFFF;
-  font-family: var(--Primary-font-family);
+  font-family: "Bricolage Grotesque", sans-serif;;
 }
 .SecondaryFont {
   color: #FFFFFF;
-  font-family: var(--Secondary-font-family);
+  font-family: "Noto Serif", serif;
 }
 
 
