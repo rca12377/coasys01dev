@@ -6,12 +6,10 @@
 :root {
   --Primary-font-family: "Bricolage Grotesque", sans-serif;
   --Secondary-font-family: "Noto Serif", serif;  
-
-  /*
+  
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 72, 35, 112;
   --background-end-rgb: 55, 7, 112;
-  */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +19,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 #PrimaryContainer {
   /* border: 2px solid cyan; */
   background-image: url("/bg01Dark.png");
@@ -50,8 +49,9 @@
 }
 
 
-body {
+body,div,span,p {
   color: #FFFFFF;
+  font-family: var(--Primary-font-family);
 }
 
 @layer utilities {
