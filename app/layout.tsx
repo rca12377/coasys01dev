@@ -8,7 +8,8 @@ export const dynamic = 'force-dynamic';
 import "./globals.css";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["Bricolage Grotesque "] });
+
 
 export const metadata: Metadata = {
   title: "COASYS",
