@@ -8,7 +8,7 @@ export default function Products() {
         <main id="mainDiv" >
 
             <div className="flex bg-green-200 p-4 mx-16 "> 
-                <div className="flex-1 bg-green-500 rounded-lg">
+                <div className="flex-1 bg-green-500 rounded-lg p-10">
         
                         Primary Text <span className="SecondaryText">Secondary Text</span>! More Text here.
                 
