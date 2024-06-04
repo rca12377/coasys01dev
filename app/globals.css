@@ -4,6 +4,9 @@
 
 
 :root {
+  --Primary-font-family: "Bricolage Grotesque", sans-serif;
+  --Secondary-font-family: "Noto Serif", serif;  
+
   /*
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 72, 35, 112;
