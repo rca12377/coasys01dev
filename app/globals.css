@@ -49,9 +49,13 @@
 }
 
 
-body,div,span,p {
+body,div,span,p,h1,h2,h3,font {
   color: #FFFFFF;
   font-family: var(--Primary-font-family);
+}
+.SecondaryFont {
+  color: #FFFFFF;
+  font-family: var(--Secondary-font-family);
 }
 
 @layer utilities {
