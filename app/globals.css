@@ -20,6 +20,17 @@
   }
 }
 
+body,div,span,p,h1,h2,h3,font {
+  color: #FFFFFF;
+  font-family: var(--Primary-font-family);
+}
+.SecondaryFont {
+  color: #FFFFFF;
+  font-family: var(--Secondary-font-family);
+}
+
+
+
 #PrimaryContainer {
   /* border: 2px solid cyan; */
   background-image: url("/bg01Dark.png");
@@ -49,14 +60,7 @@
 }
 
 
-body,div,span,p,h1,h2,h3,font {
-  color: #FFFFFF;
-  font-family: var(--Primary-font-family);
-}
-.SecondaryFont {
-  color: #FFFFFF;
-  font-family: var(--Secondary-font-family);
-}
+
 
 @layer utilities {
   .text-balance {
