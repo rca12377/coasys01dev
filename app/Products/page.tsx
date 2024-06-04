@@ -10,7 +10,7 @@ export default function Products() {
             <div className="flex bg-green-200 p-4 mx-16 "> 
                 <div className="flex-1 bg-green-500 rounded-lg p-10">
         
-                        Primary Text <span className="SecondaryText">Secondary Text</span>! More Text here.
+                        Primary Text <span className="SecondaryFont">Secondary Text</span>! More Text here.
                 
                 </div> 
                 
