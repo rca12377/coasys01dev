@@ -8,7 +8,7 @@ export default function Products() {
         <main id="mainDiv" >
 
             <div className="flex bg-green-200 p-4 mx-16 "> 
-                <div className="flex-1 bg-green-500 rounded-lg p-10" style="font-size:50pt;">
+                <div className="flex-1 bg-green-500 rounded-lg p-10 text-lg">
 
                     
                         A Digital Nervous Systems for the <span className="SecondaryFont">New Web</span>
