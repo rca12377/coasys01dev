@@ -38,8 +38,7 @@ export default function Home() {
       </div>
 
       
-      <div className="flex w-2/3 self-baseline">
-      
+      <div className="flex w-2/3">
       
           <div className="flex-1 w-1/2 p-20 text-lg">
             As we transition from the information age to the age of intelligence, data with
@@ -51,10 +50,9 @@ export default function Home() {
             <div className="rounded-lg bg-green-400/80 p-2 text-lg w-52 text-center">About the sale</div>
           </div>
     
-          <div className="flex-1 w-1/2 p-10">
+          <div className="flex-1 w-1/2 p-10 self-baseline">
             <Image src="/synergy02.svg" alt="What is Synergy?" />
           </div>
-            
     
       </div>
 
