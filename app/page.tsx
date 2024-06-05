@@ -7,7 +7,7 @@ export default function Home() {
 
     <main id="divHomePage" className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <div className="w-2/3 item-end">
+      <div className="w-2/3 item-end inline-flex">
 
         <Image src="/hamburger.svg" alt="menu" />
 
