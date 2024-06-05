@@ -16,13 +16,12 @@ export default function Home() {
           <br/>
           A Digital<br/>
           Nervous Systems<br/>
-          for the <span className="SecondaryFont">New Web</span>
+          for the <span className="SecondaryFont">New Web</span><br/>
+          <Image src="/spacer.gif" alt="" height="500" width="1" />
       </div>
 
       
       <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-xl">
-        <Image src="/spacer.gif" alt="" height="300" width="1" />
-        <br/>
         <Image src="/synergy.svg" height="20" width="20" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
