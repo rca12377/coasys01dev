@@ -20,12 +20,22 @@ export default function Home() {
       </div>
 
       <div className="flex w-2/3 p-10">
-          - - What is Synergy
-          <div className="flex-1 rounded-lg bg-blue-800/20 p-10 text-4xl">
-              
-              A new information systems the <span className="SecondaryFont">Synergy Engine</span>
-            
-            </div>
+        - - What is Synergy<br/><br/>
+      
+        <div className="flex-1 rounded-lg bg-blue-800/20 p-10 text-4xl">   
+          A new information systems the <span className="SecondaryFont">Synergy Engine</span>
+        </div>
+        
+        <br/><br/>
+        As we transition from the information age to the age of intelligence, data with
+        provenance will become increasingly valuable.<br/>
+        <br/>We are developing a search (and reward) engine, the Synergy Engine, where data
+        with provenance becomes an asset, spawning a new information ecosystem. Use your digital
+        actions as reputation, contribute to query capacity and be rewarded.<br/>
+        <br/><br/>
+
+        <div className="flex-1 rounded-sm bg-green-400/80 p-10 text-lg">About the sale</div>
+          
       </div>
 
       
