@@ -9,13 +9,13 @@ export default function Home() {
 
       <div className="w-2/3 content-end inline-flex">
 
-        <Image src="/hamburger.svg" alt="menu" className="p-10" />
-
-        <Image src="/navLogin.svg" alt="Coasys Login" className="p-10" />
+        <Image src="/hamburger.svg" alt="menu" />
+        <Image src="/spacer.gif" alt="" className="w-10" height="1" />
+        <Image src="/navLogin.svg" alt="Coasys Login" />
         
       </div>
       
-      <div className="w-2/3 text-5xl">
+      <div className="w-2/3 text-7xl">
           <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
           <br/>
           <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
