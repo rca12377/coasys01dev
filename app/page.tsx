@@ -28,7 +28,7 @@ export default function Home() {
       <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
 
       
-      <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-2xl">
+      <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-3xl">
         <Image src="/synergy.svg" height="30" width="30" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
@@ -49,7 +49,7 @@ export default function Home() {
         
       <br/><br/>
 
-      <div className="flex-1 rounded-sm bg-green-400/80 p-10 text-lg">About the sale</div>
+      <div className="flex-1 rounded-lg bg-green-400/80 p-10 text-lg w-52 text-center">About the sale</div>
         
     
 
