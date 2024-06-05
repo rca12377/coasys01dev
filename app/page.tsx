@@ -67,6 +67,20 @@ export default function Home() {
         <Image src="/synergy.svg" height="30" width="30" alt="Synergy" />&nbsp;&nbsp;--&nbsp;How It Works
       </div>
       
+      <div className="min-w-2/3 text-5xl">
+        You define what you <span className="SecondaryFont">want</span><br/>
+        and <span className="SecondaryFont">how</span> to get it.
+      </div>
+
+
+
+
+
+
+
+
+
+
       
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
