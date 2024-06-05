@@ -15,8 +15,8 @@ export default function Home() {
           the <span className="SecondaryFont">New Web</span>
       </div>
 
-      <div className="flex w-2/3 p-10">
-        <Image src="/synergy.svg" alt="" /> -- What is Synergy
+      <div className="flex w-2/3 p-10 text-color-green-300 font-weight-700 text-xl">
+        <Image src="/synergy.svg" height=20 width=20 alt="" /> -- What is Synergy
       </div>
       
       <div className="flex w-2/3 rounded-lg bg-blue-800/20 p-10 text-4xl">
