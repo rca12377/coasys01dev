@@ -72,10 +72,12 @@ export default function Home() {
         and <span className="SecondaryFont">how</span> to get it.
       </div>
 
+      <div className="min-w-2/3">
 
+        <Image src="/contentHome01.svg" alt="" />
 
-
-
+        
+      </div>
 
 
 
