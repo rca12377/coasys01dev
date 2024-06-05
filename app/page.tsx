@@ -32,7 +32,7 @@ export default function Home() {
         <Image src="/synergy.svg" height="30" width="30" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
-      <div className="min-w-4/5 text-8xl">
+      <div className="min-w-2/3 text-5xl">
         A new information system<br/>
         the <span className="SecondaryFont">Synergy Engine</span>
       </div>
