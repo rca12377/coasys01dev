@@ -10,9 +10,9 @@ export default function Home() {
       <div className="min-w-2/3 float-right inline-flex p-20">
         
         <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
-        <Image src="/spacer.gif" alt="" className="w-52" height="1" />
+        <Image src="/spacer.gif" alt="" className="w-52 h-0" height="0" />
         <Image src="/hamburger.svg" alt="menu" />
-        <Image src="/spacer.gif" alt="" className="w-10" height="1" />
+        <Image src="/spacer.gif" alt="" className="w-10 h-0" height="0" />
         <Image src="/navLogin.svg" alt="Coasys Login" />
         
       </div>
