@@ -10,14 +10,14 @@ export default function Home() {
       
       
       <div className="w-2/3 text-5xl">
-          <Image src="/spacer.gif" alt="" height="100" width="1" />
+          <div className="h-100"><Image src="/spacer.gif" alt="" height="100" width="1" /></div>
           <br/>
           <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
           <br/>
           A Digital<br/>
           Nervous Systems<br/>
           for the <span className="SecondaryFont">New Web</span><br/>
-          <Image src="/spacer.gif" alt="" height="500" width="1" />
+          <div className="h-500"><Image src="/spacer.gif" alt="" height="500" width="1" /></div>
       </div>
 
       
