@@ -7,7 +7,7 @@ export default function Home() {
 
     <main id="divHomePage" className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <div className="flex w-2/3 rounded-lg bg-blue-800/50 p-10 text-5xl">
+      <div className="w-2/3 text-5xl">
           <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
           <br/>
           A Digital<br/>
