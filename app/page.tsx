@@ -8,39 +8,38 @@ export default function Home() {
     <main id="divHomePage" className="flex min-h-screen flex-col items-center">
 
       <div className="min-w-2/3 float-right inline-flex p-10">
-        
         <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
         <Image src="/spacer.gif" alt="" className="w-52 h-0" height="0" />
         <Image src="/hamburger.svg" alt="menu" />
         <Image src="/spacer.gif" alt="" className="w-10 h-0" height="0" />
         <Image src="/navLogin.svg" alt="Coasys Login" />
-        
       </div>
 
+      <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
       
-      <div className="w-4/5 text-8xl text-opacity-60">
-          <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
-          
+      <div className="min-w-4/5 text-8xl">
           A Digital<br/>
           Nervous Systems<br/>
-          for the <span className="SecondaryFont">New Web</span><br/>
-        
-          <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
-          <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
+          for the <span className="SecondaryFont">New Web</span>
       </div>
 
+      <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
+      <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
+      <div className="h-52"><Image src="/spacer.gif" alt="" height="208" width="1" /></div>
+
       
-      <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-xl">
-        <Image src="/synergy.svg" height="20" width="20" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
+      <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-2xl">
+        <Image src="/synergy.svg" height="30" width="30" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
-      <div className="flex w-2/3 rounded-lg bg-blue-800/20 p-10 text-4xl">
-        A new information systems the <span className="SecondaryFont">Synergy Engine</span>
+      <div className="min-w-4/5 text-8xl">
+        A new information system<br/>
+        the <span className="SecondaryFont">Synergy Engine</span>
       </div>
       
-      <br/><br/>
+      <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
   
-      <div className="flex w-2/3 p-10">
+      <div className="flex w-1/2 p-10 text-lg">
         As we transition from the information age to the age of intelligence, data with
         provenance will become increasingly valuable.<br/>
         <br/>We are developing a search (and reward) engine, the Synergy Engine, where data
