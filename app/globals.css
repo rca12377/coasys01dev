@@ -19,7 +19,7 @@
 
 body,div,span,p,h1,h2,h3,font {
   color: #FFFFFF;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: {PrimaryFont.className}, sans-serif;
 }
 .SecondaryFont {
   color: #FFFFFF;
