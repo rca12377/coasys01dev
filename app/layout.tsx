@@ -10,6 +10,8 @@ import "./globals.css";
 /* Google Font "Bricolage Grotesque" */
 import { Bricolage_Grotesque } from 'next/font/google';
 const PrimaryFont = Bricolage_Grotesque({ subsets: ['latin'] });
+import { Noto_Serif } from 'next/font/google';
+const SecondaryFont = Noto_Serif({ subsets: ['latin'] });
 
 
 
@@ -27,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={PrimaryFont.className}>
+      <body className={SecondaryFont.className}>
 
         <div id="PrimaryContainer">
         
