@@ -20,7 +20,7 @@ export const secondaryFont = Bricolage_Grotesque({
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['secondaryFont', tailwindConfig.theme.fontFamily.sans],
+      sans: ['Bricolage Grotesque', tailwindConfig.theme.fontFamily.sans],
     },
   },
 };
