@@ -7,8 +7,6 @@ export const dynamic = 'force-dynamic';
 
 import "./globals.css";
 
-import { Inter } from "next/font/google";
-
 /* Google Font "Bricolage Grotesque" */
 import { Bricolage_Grotesque } from 'next/font/google';
 const PrimaryFont = Bricolage_Grotesque({ subsets: ['latin'] });
@@ -29,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={inter.className}>
+      <body className={PrimaryFont.className}>
 
         <div id="PrimaryContainer">
         
