@@ -11,8 +11,8 @@ export default function Home() {
           <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
           <br/>
           A Digital<br/>
-          Nervous Systems for<br/>
-          the <span className="SecondaryFont">New Web</span>
+          Nervous Systems<br/>
+          for the <span className="SecondaryFont">New Web</span>
       </div>
 
       <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-xl">
