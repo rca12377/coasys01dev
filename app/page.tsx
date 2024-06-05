@@ -7,7 +7,7 @@ export default function Home() {
 
     <main id="divHomePage" className="flex min-h-screen flex-col items-center">
 
-      <div className="min-w-2/3 float-right inline-flex p-20">
+      <div className="min-w-2/3 float-right inline-flex">
         
         <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
         <Image src="/spacer.gif" alt="" className="w-52 h-0" height="0" />
