@@ -8,11 +8,11 @@ export default function Products() {
         <main id="mainDiv" >
 
            
-        <div className="flex-1 .bg-blue-500/50 rounded-lg p-10 text-6xl">
+        <div className="flex-1 bg-blue-500/50 rounded-lg p-10 text-6xl">
                 A Digital Nervous Systems for the <span className="SecondaryFont">New Web</span>
         </div> 
 
-        <div className="flex-1 bg-green-500 rounded-lg p-10 text-6xl">
+        <div className="flex-1 bg-green-500/50 rounded-lg p-10 text-6xl">
                 A new information system the <span className="SecondaryFont">Synergy Engine</span>
         </div> 
 
