@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       
-      <div className="w-4/5 text-8xl text-opacity-20">
+      <div className="w-4/5 text-8xl text-opacity-60">
           <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
           
           A Digital<br/>
