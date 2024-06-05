@@ -13,15 +13,6 @@ import { Inter } from "next/font/google";
 import { Bricolage_Grotesque } from 'next/font/google';
 const PrimaryFont = Bricolage_Grotesque({ subsets: ['latin'] });
 
-module.exports = {
-  theme: {
-    fontFamily: {
-      sans: ['PrimaryFont', tailwindConfig.theme.fontFamily.sans],
-    },
-  },
-};
-
-const inter = Bricolage;
 
 
 
