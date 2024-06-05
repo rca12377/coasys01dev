@@ -11,7 +11,7 @@ import { Inter } from "next/font/google";
 
 /* Google Font "Bricolage Grotesque" */
 import { createFont } from 'next/font/google';
-export const secondaryFont = Bricolage_Grotesque({
+export const Inter = Bricolage_Grotesque({
     subsets: ["latin"],
     variable: "--font-grotesque",
     display: "swap",
