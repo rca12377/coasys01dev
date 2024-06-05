@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       
-      <div className="flex w-2/3">
+      <div className="flex w-2/3 self-baseline">
       
       
           <div className="flex-1 w-1/2 p-20 text-lg">
@@ -48,7 +48,7 @@ export default function Home() {
             with provenance becomes an asset, spawning a new information ecosystem. Use your digital
             actions as reputation, contribute to query capacity and be rewarded.<br/>
             <br/>
-            <div className="rounded-lg bg-green-400/80 p-5 text-lg w-52 text-center">About the sale</div>
+            <div className="rounded-lg bg-green-400/80 p-2 text-lg w-52 text-center">About the sale</div>
           </div>
     
           <div className="flex-1 w-1/2 p-10">
