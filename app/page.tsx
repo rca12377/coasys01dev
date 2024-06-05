@@ -36,20 +36,30 @@ export default function Home() {
         A new information system<br/>
         the <span className="SecondaryFont">Synergy Engine</span>
       </div>
+
       
-      <div className="flex w-1/2 p-20 text-lg">
-        As we transition from the information age to the age of intelligence, data with
-        provenance will become increasingly valuable.<br/>
-        <br/>We are developing a search (and reward) engine, the Synergy Engine, where data
-        with provenance becomes an asset, spawning a new information ecosystem. Use your digital
-        actions as reputation, contribute to query capacity and be rewarded.<br/>
+      <div className="flex w-2/3">
+      
+      
+          <div className="flex-1 w-1/2 p-20 text-lg">
+            As we transition from the information age to the age of intelligence, data with
+            provenance will become increasingly valuable.<br/>
+            <br/>We are developing a search (and reward) engine, the Synergy Engine, where data
+            with provenance becomes an asset, spawning a new information ecosystem. Use your digital
+            actions as reputation, contribute to query capacity and be rewarded.<br/>
+            <br/>
+            <div className="rounded-lg bg-green-400/80 p-5 text-lg w-52 text-center">About the sale</div>
+          </div>
+    
+          <div className="flex-1 w-1/2">
+            <Image src="/synergy01.svg" alt="What is Synergy?" />
+          </div>
+            
+    
       </div>
 
-      <div className="flex-1 rounded-lg bg-green-400/80 p-10 text-lg w-52 text-center">About the sale</div>
-        
-    
 
-    
+      
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
