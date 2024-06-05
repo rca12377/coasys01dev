@@ -17,6 +17,14 @@
   }
 }
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ====================== */
+/* === default fonts ==== */
 body,div,span,p,h1,h2,h3,font {
   color: #FFFFFF;
   font-family: "__Bricolage_Grotesque_516b68", sans-serif;
@@ -28,24 +36,14 @@ body,div,span,p,h1,h2,h3,font {
 }
 
 
-
+/* ====================== */
+/* ========    layout.tsx */
 #PrimaryContainer {
   /* border: 2px solid cyan; */
   /* background-image: url("/bg01Dark.png"); */
   /* background-size: contain; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
-}
-
-#NavigationMenu {
-  /* border: 2px solid yellow; */
-  padding-top: 8px;
-  white-space: nowrap;
-  text-wrap: nowrap;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
   width: 100%;
 }
 
@@ -57,13 +55,12 @@ body,div,span,p,h1,h2,h3,font {
   /* border: 2px solid red; */
 }
 
+/* ====================== */
+/* ========    page.tsx */
 #divHomePage {
   background-image: url("/bgHomepage.jpg");
+  background-repeat: no-repeat;
+  background-color: #FFFFFF !important;
 }
 
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
