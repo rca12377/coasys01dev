@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-xl">
-        <Image src="/synergy.svg" height="20" width="20" alt="Synergy" /> -- What is Synergy
+        <Image src="/synergy.svg" height="20" width="20" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
       <div className="flex w-2/3 rounded-lg bg-blue-800/20 p-10 text-4xl">
