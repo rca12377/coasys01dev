@@ -8,7 +8,7 @@ export default function Home() {
     <main id="divHomePage" className="flex min-h-screen flex-col items-center justify-between p-24">
 
       <div className="flex w-1/2 p-50">
-          <div className="flex-1 rounded-lg bg-gray-500/50">
+          <div className="flex-1 rounded-lg bg-gray-500/50 p-10 text-6xl">
       
               A Digital<br/>
               Nervous Systems for<br/>
