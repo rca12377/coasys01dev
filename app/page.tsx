@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 export default function Home() {
   return (
 
-    <main id="mainDiv" className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main id="divHomePage" className="flex min-h-screen flex-col items-center justify-between p-24">
 
         Home Page
 
