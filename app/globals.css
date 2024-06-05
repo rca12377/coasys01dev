@@ -31,7 +31,7 @@ body,div,span,p,h1,h2,h3,font {
 
 #PrimaryContainer {
   /* border: 2px solid cyan; */
-  background-image: url("/bg01Dark.png");
+  /* background-image: url("/bg01Dark.png"); */
   /* background-size: contain; */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -57,7 +57,9 @@ body,div,span,p,h1,h2,h3,font {
   /* border: 2px solid red; */
 }
 
-
+#divHomePage {
+  background-image: url("/bgHomepage.jpg");
+}
 
 
 @layer utilities {
