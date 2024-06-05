@@ -46,11 +46,14 @@ export default function Home() {
             <br/>We are developing a search (and reward) engine, the Synergy Engine, where data
             with provenance becomes an asset, spawning a new information ecosystem. Use your digital
             actions as reputation, contribute to query capacity and be rewarded.<br/>
-            <br/>
-            <div className="rounded-lg bg-green-400/80 p-2 text-lg w-52 text-center">About the sale</div>
+            
+            <div className="p-20">
+              <div className="rounded-lg bg-green-400/80 p-2 text-lg w-52 text-center">About the sale</div>
+            </div>
           </div>
     
           <div className="flex-1 w-1/2 p-10 self-baseline">
+            <br/><br/>
             <Image src="/synergy02.svg" alt="What is Synergy?" />
           </div>
     
