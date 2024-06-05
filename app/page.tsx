@@ -8,7 +8,9 @@ export default function Home() {
     <main id="divHomePage" className="flex min-h-screen flex-col items-center">
 
       <div className="min-w-2/3 float-right inline-flex p-20">
-
+        
+        <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
+        <Image src="/spacer.gif" alt="" className="w-50" height="1" />
         <Image src="/hamburger.svg" alt="menu" />
         <Image src="/spacer.gif" alt="" className="w-10" height="1" />
         <Image src="/navLogin.svg" alt="Coasys Login" />
@@ -16,14 +18,13 @@ export default function Home() {
       </div>
 
       
-      <div className="w-4/5 text-7xl">
+      <div className="w-4/5 text-6xl">
           <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
-          <br/>
-          <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
           <br/>
           A Digital<br/>
           Nervous Systems<br/>
           for the <span className="SecondaryFont">New Web</span><br/>
+        
           <div className="h-80"><Image src="/spacer.gif" alt="" height="320" width="1" /></div>
       </div>
 
