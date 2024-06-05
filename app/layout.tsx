@@ -10,18 +10,17 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 /* Google Font "Bricolage Grotesque" */
-import { createFont } from 'next/font';
-export const Bricolage = createFont({
-  family: 'Bricolage Grotesque',
-  weight: ['400', '700'], // Add desired weights
-  subsets: ['latin'], // Adjust subsets based on your needs
-  display: 'swap',
-  fontStyle: 'normal',
+import { createFont } from 'next/font/google';
+export const secondaryFont = Bricolage_Grotesque({
+    subsets: ["latin"],
+    variable: "--font-grotesque",
+    display: "swap",
+    adjustFontFallback: false,
 });
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Bricolage', tailwindConfig.theme.fontFamily.sans],
+      sans: ['secondaryFont', tailwindConfig.theme.fontFamily.sans],
     },
   },
 };
