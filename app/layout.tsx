@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
 
 import Link from "next/link";
 import Image from "next/image";
@@ -7,8 +7,27 @@ export const dynamic = 'force-dynamic';
 
 import "./globals.css";
 
-
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["Bricolage Grotesque "] });
+
+/* Google Font "Bricolage Grotesque" */
+import { createFont } from 'next/font';
+export const Bricolage = createFont({
+  family: 'Bricolage Grotesque',
+  weight: ['400', '700'], // Add desired weights
+  subsets: ['latin'], // Adjust subsets based on your needs
+  display: 'swap',
+  fontStyle: 'normal',
+});
+module.exports = {
+  theme: {
+    fontFamily: {
+      sans: ['Bricolage', tailwindConfig.theme.fontFamily.sans],
+    },
+  },
+};
+
+
 
 
 export const metadata: Metadata = {
