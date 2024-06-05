@@ -8,7 +8,6 @@ export const dynamic = 'force-dynamic';
 import "./globals.css";
 
 import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["Bricolage Grotesque "] });
 
 /* Google Font "Bricolage Grotesque" */
 import { createFont } from 'next/font';
@@ -27,6 +26,7 @@ module.exports = {
   },
 };
 
+const inter = Bricolage;
 
 
 
