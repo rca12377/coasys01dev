@@ -7,13 +7,14 @@ export default function Home() {
 
     <main id="divHomePage" className="flex min-h-screen flex-col items-center">
 
-      <div className="min-w-2/3 float-right inline-flex">
+      <div className="min-w-2/3 float-right inline-flex p-20">
 
         <Image src="/hamburger.svg" alt="menu" />
         <Image src="/spacer.gif" alt="" className="w-10" height="1" />
         <Image src="/navLogin.svg" alt="Coasys Login" />
         
       </div>
+
       
       <div className="w-4/5 text-7xl">
           <div className="h-32"><Image src="/spacer.gif" alt="" height="128" width="1" /></div>
@@ -23,7 +24,7 @@ export default function Home() {
           A Digital<br/>
           Nervous Systems<br/>
           for the <span className="SecondaryFont">New Web</span><br/>
-          <div className="h-96"><Image src="/spacer.gif" alt="" height="500" width="1" /></div>
+          <div className="h-80"><Image src="/spacer.gif" alt="" height="320" width="1" /></div>
       </div>
 
       
