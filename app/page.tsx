@@ -7,9 +7,10 @@ export default function Home() {
 
     <main id="divHomePage" className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <div><Image src="/spacer.gif" alt="" height="100" width="1" /></div>
+      
       
       <div className="w-2/3 text-5xl">
+          <div><Image src="/spacer.gif" alt="" height="100" width="1" /></div>
           <Image src="/coasys.svg" alt="Coasys: a Digital Nervous Systems for the New Web" />
           <br/>
           A Digital<br/>
@@ -18,10 +19,8 @@ export default function Home() {
       </div>
 
       
-      <div><Image src="/spacer.gif" alt="" height="200" width="1" /></div>
-      
-      
       <div className="flex w-2/3 p-10 text-green-300 font-weight-700 text-xl">
+        <div><Image src="/spacer.gif" alt="" height="300" width="1" /></div>
         <Image src="/synergy.svg" height="20" width="20" alt="Synergy" />&nbsp;&nbsp;--&nbsp;What is Synergy
       </div>
       
