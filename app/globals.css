@@ -63,4 +63,8 @@ body,div,span,p,h1,h2,h3,font {
   background-color: #FFFFFF !important;
 }
 
-
+#TestResponsive {
+  background-image: url("/bg01Dark.png");
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
