@@ -5,11 +5,11 @@ export const dynamic = 'force-dynamic';
 export default function Products() {
     return (
 
-        <main id="mainDiv" >
+        <main id="mainDiv" className="bg-gray-400">
 
-           <div id="TestResponsive">
+           <div id="TestResponsive" >
 
-               <div className="w-2/3 text ">This is some text</div>
+               <div className="w-2/3 text-4xl">This is some text</div>
                
            </div>
         
