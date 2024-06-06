@@ -7,9 +7,9 @@ export default function Products() {
 
         <main id="mainDiv" className="bg-gray-400">
 
-           <div id="TestResponsive" >
+           <div id="TestResponsive" className="flex ">
 
-               <div className="w-2/3 text-4xl">This is some text</div>
+               <div className="w-2/3 text-4xl flex-shrink">This is some text</div>
                
            </div>
         
