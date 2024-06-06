@@ -17,7 +17,7 @@ const SecondaryFont = Noto_Serif({ subsets: ['latin'] });
 
 
 export const metadata: Metadata = {
-  title: "COASYS",
+  title: "BOB COASYS",
   description: "COASYS: A Digital Nervous System for the New Web",
 };
 
