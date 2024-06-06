@@ -7,29 +7,13 @@ export default function Products() {
 
         <main id="mainDiv" >
 
-           
-        <div className="flex-1 bg-blue-500/50 rounded-lg p-10 text-6xl">
-                A Digital Nervous Systems for the <span className="SecondaryFont">New Web</span>
-        </div> 
+           <div id="TestResponsive">
 
-        <div className="flex-1 bg-green-500/50 rounded-lg p-10 text-6xl">
-                A new information system the <span className="SecondaryFont">Synergy Engine</span>
-        </div> 
-
-        <div className="flex-1 bg-green-500 rounded-lg p-10 text-6xl">
-                You define <span className="SecondaryFont">what</span> you want and <span className="SecondaryFont">how</span> to get it
-        </div> 
+               <div className="w-2/3 text ">This is some text</div>
+               
+           </div>
         
-
-            <div className="flex bg-ltblue p-4 mx-16">
-
-                    <div className="flex-1 rounded-lg">
-                        <Image src="/contentHome01.svg" alt="" />
-                    </div>
-            
-            </div>
-
-            
+            <div className="h-20"><Image src="/spacer.gif" alt="" /></div>
             <h1>Products .. </h1>
             <br/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
